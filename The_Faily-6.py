@@ -10,7 +10,6 @@ for i in a:
     if j not in Legitim_Partii:
         j = -1
     j = int(j)
-    print(j)
     A[j] = A.get(j, 0) + 1
 w = []
 for i, j in sorted(A.items()):
